@@ -1,0 +1,17 @@
+iframe {
+	border: none;
+}
+/* style.css */
+body {
+	padding-top: 20px;
+	font-family: "Noto Sans JP", sans-serif !important;
+	font-optical-sizing: auto;
+	/* font-weight: <weight>; */
+	font-style: normal;
+}
+.cooperate {
+	color: #198754;
+}
+.defect {
+	color: #ffc107;
+}

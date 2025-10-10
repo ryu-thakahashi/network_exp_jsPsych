@@ -2,23 +2,126 @@
 <html>
 	<head>
 		<title>My experiment</title>
+
+		<!-- jsPsych -->
 		<script src="https://unpkg.com/jspsych@8.2.2"></script>
 		<script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@2.1.0"></script>
+		<script src="https://unpkg.com/@jspsych/plugin-html-button-response@2.1.0"></script>
 		<link
 			href="https://unpkg.com/jspsych@8.2.2/css/jspsych.css"
 			rel="stylesheet"
 			type="text/css"
 		/>
+
+		<!-- Bootstrap 5 -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- My Style -->
+		<link rel="stylesheet" href="./assets/my_style.css" />
+		<link rel="stylesheet" href="./assets/css/payoff_table.css" />
+		<link rel="stylesheet" href="./assets/css/network_plt.css" />
 	</head>
 	<body></body>
-	<script>
+
+	<script type="module">
+		import { createTable } from "./assets/js/generate_table.js";
+		import {
+			drawBaseNetwork,
+			updateParticipantsState,
+			updateParticipantsPayoff,
+			updateNeighborBehavior,
+			updateNeighborPayoff,
+		} from "./assets/js/plot_network.js";
+
 		const jsPsych = initJsPsych();
 
-		const hello_trial = {
-			type: jsPsychHtmlKeyboardResponse,
-			stimulus: "World!",
+		const situation_instruction = `<p>あなたは以下の状況に置かれました</p>`;
+		const network_plt = `<div><svg style="width: 100%; height: 300px;" id="network-plot"></svg></div>`;
+		const payoff_table = `<div class="table-responsive mt-3" id="payoff-table"></div>`;
+
+		const network_info = await (
+			await fetch("./assets/S1_scope_data.json")
+		).json();
+		// console.log(network_info);
+
+		function create_situations_array(network_info_array) {
+			const res_situations = [];
+			for (let i = 0; i < network_info_array.length; i++) {
+				// for (let i = 0; i < 3; i++) {
+				// console.log(network_info[i]);
+				const expose_trial = {
+					type: jsPsychHtmlButtonResponse,
+					stimulus: situation_instruction + network_plt + payoff_table,
+					choices: ["次へ"],
+					on_load: () => {
+						// Generate the payoff table when the trial loads
+						createTable();
+						// Draw the network when the trial loads
+						drawBaseNetwork();
+						updateParticipantsState(network_info_array[i].p_action_str);
+						updateParticipantsPayoff(network_info_array[i].p_payoff);
+						updateNeighborBehavior(network_info_array[i].neighbor_action_list);
+						updateNeighborPayoff(network_info_array[i].neighbor_payoff_list);
+					},
+				};
+				res_situations.push(expose_trial);
+			}
+			return res_situations;
+		}
+
+		const expose_situations = create_situations_array(network_info);
+		const shuffled_situations = jsPsych.randomization.repeat(
+			expose_situations,
+			1
+		);
+
+		const decision_instruction = `<p>以下の選択肢から1つを選んでください</p>`;
+		const decision_task = {
+			type: jsPsychHtmlButtonResponse,
+			stimulus: decision_instruction + network_plt + payoff_table,
+			choices: ["A", "B"],
+			button_html: (choice) => {
+				let btn_class = "";
+				if (choice === "A") btn_class = "btn-success";
+				if (choice === "B") btn_class = "btn-warning";
+				return `<button class="btn btn-lg ${btn_class}" style="margin: 0 15px;">${choice}</button>`;
+			},
+			on_load: () => {
+				// Generate the payoff table when the trial loads
+				createTable();
+				// Reset the network state when the trial loads
+				drawBaseNetwork();
+			},
 		};
 
-		jsPsych.run([hello_trial]);
+		function combine_expose_and_decision(expose_situations, decision_task) {
+			const timelines = [];
+			for (let i = 0; i < expose_situations.length; i++) {
+				timelines.push(expose_situations[i]);
+				timelines.push(decision_task);
+			}
+			return timelines;
+		}
+
+		const timelines = combine_expose_and_decision(
+			shuffled_situations,
+			decision_task
+		);
+		// console.log(timelines);
+		jsPsych.run(timelines);
+
+		// jsPsych.run([expose_situation, decision_task]);
 	</script>
 </html>
