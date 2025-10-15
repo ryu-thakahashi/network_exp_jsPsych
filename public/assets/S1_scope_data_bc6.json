@@ -1,0 +1,4028 @@
+[
+    {
+        "index": 0,
+        "situation_id": "0.5_0_p16_n100226",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            10,
+            0,
+            22,
+            6
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            12,
+            12,
+            16,
+            16
+        ]
+    },
+    {
+        "index": 1,
+        "situation_id": "0.5_0_p16_n10101212",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            10,
+            10,
+            12,
+            12
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            10,
+            10,
+            16,
+            22
+        ]
+    },
+    {
+        "index": 2,
+        "situation_id": "0.5_0_p16_n10101218",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 1,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            10,
+            10,
+            12,
+            18
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            16,
+            6,
+            12,
+            12
+        ]
+    },
+    {
+        "index": 3,
+        "situation_id": "0.5_0_p16_n101066",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            10,
+            10,
+            6,
+            6
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            22,
+            6,
+            22,
+            6
+        ]
+    },
+    {
+        "index": 4,
+        "situation_id": "0.5_0_p16_n10161212",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            10,
+            16,
+            12,
+            12
+        ],
+        "next_action": null,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "index": 5,
+        "situation_id": "0.5_0_p16_n101666",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            10,
+            16,
+            6,
+            6
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            12,
+            12,
+            16,
+            10
+        ]
+    },
+    {
+        "index": 6,
+        "situation_id": "0.5_0_p16_n1061216",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            10,
+            6,
+            12,
+            16
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            12,
+            18,
+            12,
+            16
+        ]
+    },
+    {
+        "index": 7,
+        "situation_id": "0.5_0_p16_n1061222",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            10,
+            6,
+            12,
+            22
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            10,
+            10,
+            12,
+            18
+        ]
+    },
+    {
+        "index": 8,
+        "situation_id": "0.5_0_p16_n1212104",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            12,
+            10,
+            4
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            10,
+            10,
+            22,
+            12
+        ]
+    },
+    {
+        "index": 9,
+        "situation_id": "0.5_0_p16_n12121616",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            12,
+            16,
+            16
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            6,
+            6,
+            10,
+            10
+        ]
+    },
+    {
+        "index": 10,
+        "situation_id": "0.5_0_p16_n1216106",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            16,
+            10,
+            6
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            16,
+            10,
+            10,
+            6
+        ]
+    },
+    {
+        "index": 11,
+        "situation_id": "0.5_0_p16_n12161612",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            16,
+            16,
+            12
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            6,
+            16,
+            10,
+            16
+        ]
+    },
+    {
+        "index": 12,
+        "situation_id": "0.5_0_p16_n1222622",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            22,
+            6,
+            22
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            12,
+            22,
+            6,
+            22
+        ]
+    },
+    {
+        "index": 13,
+        "situation_id": "0.5_0_p16_n1261010",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            6,
+            10,
+            10
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            24,
+            24,
+            12,
+            16
+        ]
+    },
+    {
+        "index": 14,
+        "situation_id": "0.5_0_p16_n1261610",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            6,
+            16,
+            10
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            6,
+            16,
+            10,
+            10
+        ]
+    },
+    {
+        "index": 15,
+        "situation_id": "0.5_0_p16_n1261616",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            6,
+            16,
+            16
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            10,
+            10,
+            10,
+            0
+        ]
+    },
+    {
+        "index": 16,
+        "situation_id": "0.5_0_p16_n1612610",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            16,
+            12,
+            6,
+            10
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            22,
+            12,
+            6,
+            10
+        ]
+    },
+    {
+        "index": 17,
+        "situation_id": "0.5_0_p16_n16161212",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            16,
+            16,
+            12,
+            12
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            16,
+            10,
+            16,
+            6
+        ]
+    },
+    {
+        "index": 18,
+        "situation_id": "0.5_0_p16_n16161218",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 1,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            16,
+            16,
+            12,
+            18
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            16,
+            6,
+            18,
+            18
+        ]
+    },
+    {
+        "index": 19,
+        "situation_id": "0.5_0_p16_n1616612",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            16,
+            16,
+            6,
+            12
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            4,
+            4,
+            4,
+            4
+        ]
+    },
+    {
+        "index": 20,
+        "situation_id": "0.5_0_p16_n161666",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            16,
+            16,
+            6,
+            6
+        ],
+        "next_action": null,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "index": 21,
+        "situation_id": "0.5_0_p16_n18121010",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 1,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            18,
+            12,
+            10,
+            10
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            12,
+            12,
+            16,
+            6
+        ]
+    },
+    {
+        "index": 22,
+        "situation_id": "0.5_0_p16_n1812104",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 1,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            18,
+            12,
+            10,
+            4
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            24,
+            24,
+            12,
+            16
+        ]
+    },
+    {
+        "index": 23,
+        "situation_id": "0.5_0_p16_n18121610",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 1,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            18,
+            12,
+            16,
+            10
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            6,
+            16,
+            10,
+            10
+        ]
+    },
+    {
+        "index": 24,
+        "situation_id": "0.5_0_p16_n18121616",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 1,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            18,
+            12,
+            16,
+            16
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            12,
+            22,
+            6,
+            22
+        ]
+    },
+    {
+        "index": 25,
+        "situation_id": "0.5_0_p16_n22121222",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            22,
+            12,
+            12,
+            22
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            18,
+            12,
+            22,
+            22
+        ]
+    },
+    {
+        "index": 26,
+        "situation_id": "0.5_0_p16_n2212610",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            22,
+            12,
+            6,
+            10
+        ],
+        "next_action": null,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "index": 27,
+        "situation_id": "0.5_0_p16_n226226",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            22,
+            6,
+            22,
+            6
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            22,
+            6,
+            22,
+            6
+        ]
+    },
+    {
+        "index": 28,
+        "situation_id": "0.5_0_p16_n4101212",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            4,
+            10,
+            12,
+            12
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            28,
+            18,
+            18,
+            28
+        ]
+    },
+    {
+        "index": 29,
+        "situation_id": "0.5_0_p16_n4101218",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 1,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            4,
+            10,
+            12,
+            18
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            16,
+            16,
+            12,
+            18
+        ]
+    },
+    {
+        "index": 30,
+        "situation_id": "0.5_0_p16_n41066",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            4,
+            10,
+            6,
+            6
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            4,
+            10,
+            6,
+            16
+        ]
+    },
+    {
+        "index": 31,
+        "situation_id": "0.5_0_p16_n6101612",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            6,
+            10,
+            16,
+            12
+        ],
+        "next_action": null,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "index": 32,
+        "situation_id": "0.5_0_p16_n610166",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            6,
+            10,
+            16,
+            6
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            16,
+            12,
+            12,
+            16
+        ]
+    },
+    {
+        "index": 33,
+        "situation_id": "0.5_0_p16_n616100",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            6,
+            16,
+            10,
+            0
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            16,
+            16,
+            6,
+            12
+        ]
+    },
+    {
+        "index": 34,
+        "situation_id": "0.5_0_p16_n616106",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            6,
+            16,
+            10,
+            6
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            16,
+            10,
+            10,
+            6
+        ]
+    },
+    {
+        "index": 35,
+        "situation_id": "0.5_0_p16_n616166",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            6,
+            16,
+            16,
+            6
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            10,
+            4,
+            4,
+            4
+        ]
+    },
+    {
+        "index": 36,
+        "situation_id": "0.5_0_p16_n622010",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            6,
+            22,
+            0,
+            10
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            16,
+            12,
+            6,
+            10
+        ]
+    },
+    {
+        "index": 37,
+        "situation_id": "0.5_0_p16_n622622",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            6,
+            22,
+            6,
+            22
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            16,
+            16,
+            6,
+            22
+        ]
+    },
+    {
+        "index": 38,
+        "situation_id": "0.5_0_p16_n661010",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            6,
+            6,
+            10,
+            10
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            22,
+            6,
+            22,
+            6
+        ]
+    },
+    {
+        "index": 39,
+        "situation_id": "0.5_0_p16_n66104",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            6,
+            6,
+            10,
+            4
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            16,
+            16,
+            18,
+            18
+        ]
+    },
+    {
+        "index": 40,
+        "situation_id": "0.5_0_p16_n661610",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            6,
+            6,
+            16,
+            10
+        ],
+        "next_action": null,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "index": 41,
+        "situation_id": "0.5_0_p16_n661616",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "defect",
+        "p_payoff": 16,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            6,
+            6,
+            16,
+            16
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            16,
+            10,
+            4,
+            4
+        ]
+    },
+    {
+        "index": 42,
+        "situation_id": "0.5_1_p12_n10161212",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            10,
+            16,
+            12,
+            12
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            18,
+            12,
+            28,
+            12
+        ]
+    },
+    {
+        "index": 43,
+        "situation_id": "0.5_1_p12_n10161218",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 1,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            10,
+            16,
+            12,
+            18
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            10,
+            0,
+            22,
+            6
+        ]
+    },
+    {
+        "index": 44,
+        "situation_id": "0.5_1_p12_n10161824",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 1,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            10,
+            16,
+            18,
+            24
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            16,
+            16,
+            18,
+            24
+        ]
+    },
+    {
+        "index": 45,
+        "situation_id": "0.5_1_p12_n12121610",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            12,
+            16,
+            10
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            10,
+            10,
+            6,
+            22
+        ]
+    },
+    {
+        "index": 46,
+        "situation_id": "0.5_1_p12_n12121616",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            12,
+            16,
+            16
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            16,
+            6,
+            16,
+            10
+        ]
+    },
+    {
+        "index": 47,
+        "situation_id": "0.5_1_p12_n12162212",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            16,
+            22,
+            12
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            12,
+            12,
+            22,
+            12
+        ]
+    },
+    {
+        "index": 48,
+        "situation_id": "0.5_1_p12_n12221228",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            22,
+            12,
+            28
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            22,
+            22,
+            18,
+            18
+        ]
+    },
+    {
+        "index": 49,
+        "situation_id": "0.5_1_p12_n1222616",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            22,
+            6,
+            16
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            12,
+            18,
+            24,
+            18
+        ]
+    },
+    {
+        "index": 50,
+        "situation_id": "0.5_1_p12_n12281228",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            28,
+            12,
+            28
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            12,
+            18,
+            12,
+            22
+        ]
+    },
+    {
+        "index": 51,
+        "situation_id": "0.5_1_p12_n1228616",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            28,
+            6,
+            16
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            22,
+            12,
+            16,
+            10
+        ]
+    },
+    {
+        "index": 52,
+        "situation_id": "0.5_1_p12_n16121216",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            16,
+            12,
+            12,
+            16
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            10,
+            16,
+            6,
+            16
+        ]
+    },
+    {
+        "index": 53,
+        "situation_id": "0.5_1_p12_n16121822",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            16,
+            12,
+            18,
+            22
+        ],
+        "next_action": null,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "index": 54,
+        "situation_id": "0.5_1_p12_n16121828",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            16,
+            12,
+            18,
+            28
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            0,
+            16,
+            6,
+            6
+        ]
+    },
+    {
+        "index": 55,
+        "situation_id": "0.5_1_p12_n16161212",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            16,
+            16,
+            12,
+            12
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            10,
+            10,
+            6,
+            6
+        ]
+    },
+    {
+        "index": 56,
+        "situation_id": "0.5_1_p12_n16161218",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 1,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            16,
+            16,
+            12,
+            18
+        ],
+        "next_action": null,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "index": 57,
+        "situation_id": "0.5_1_p12_n16161818",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 1,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            16,
+            16,
+            18,
+            18
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            22,
+            22,
+            12,
+            12
+        ]
+    },
+    {
+        "index": 58,
+        "situation_id": "0.5_1_p12_n16161824",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 1,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            16,
+            16,
+            18,
+            24
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            6,
+            22,
+            18,
+            24
+        ]
+    },
+    {
+        "index": 59,
+        "situation_id": "0.5_1_p12_n166226",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            16,
+            6,
+            22,
+            6
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            4,
+            4,
+            10,
+            16
+        ]
+    },
+    {
+        "index": 60,
+        "situation_id": "0.5_1_p12_n1662818",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            16,
+            6,
+            28,
+            18
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            0,
+            10,
+            4,
+            4
+        ]
+    },
+    {
+        "index": 61,
+        "situation_id": "0.5_1_p12_n18121610",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 1,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            18,
+            12,
+            16,
+            10
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            6,
+            16,
+            4,
+            4
+        ]
+    },
+    {
+        "index": 62,
+        "situation_id": "0.5_1_p12_n18122216",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            18,
+            12,
+            22,
+            16
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            24,
+            18,
+            22,
+            16
+        ]
+    },
+    {
+        "index": 63,
+        "situation_id": "0.5_1_p12_n18122222",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            18,
+            12,
+            22,
+            22
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            10,
+            10,
+            16,
+            12
+        ]
+    },
+    {
+        "index": 64,
+        "situation_id": "0.5_1_p12_n18182222",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            18,
+            18,
+            22,
+            22
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            6,
+            6,
+            10,
+            10
+        ]
+    },
+    {
+        "index": 65,
+        "situation_id": "0.5_1_p12_n18221612",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            18,
+            22,
+            16,
+            12
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            22,
+            18,
+            12,
+            22
+        ]
+    },
+    {
+        "index": 66,
+        "situation_id": "0.5_1_p12_n1822166",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            18,
+            22,
+            16,
+            6
+        ],
+        "next_action": null,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "index": 67,
+        "situation_id": "0.5_1_p12_n18222218",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            18,
+            22,
+            22,
+            18
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            12,
+            28,
+            12,
+            28
+        ]
+    },
+    {
+        "index": 68,
+        "situation_id": "0.5_1_p12_n18281222",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            18,
+            28,
+            12,
+            22
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            6,
+            6,
+            10,
+            4
+        ]
+    },
+    {
+        "index": 69,
+        "situation_id": "0.5_1_p12_n1828616",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            18,
+            28,
+            6,
+            16
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            10,
+            0,
+            10,
+            10
+        ]
+    },
+    {
+        "index": 70,
+        "situation_id": "0.5_1_p12_n22121216",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            22,
+            12,
+            12,
+            16
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            4,
+            10,
+            6,
+            6
+        ]
+    },
+    {
+        "index": 71,
+        "situation_id": "0.5_1_p12_n2212226",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            22,
+            12,
+            22,
+            6
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            22,
+            12,
+            16,
+            16
+        ]
+    },
+    {
+        "index": 72,
+        "situation_id": "0.5_1_p12_n22122812",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            22,
+            12,
+            28,
+            12
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            16,
+            12,
+            12,
+            6
+        ]
+    },
+    {
+        "index": 73,
+        "situation_id": "0.5_1_p12_n22122818",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            22,
+            12,
+            28,
+            18
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            22,
+            18,
+            24,
+            24
+        ]
+    },
+    {
+        "index": 74,
+        "situation_id": "0.5_1_p12_n22181216",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            22,
+            18,
+            12,
+            16
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            6,
+            6,
+            10,
+            4
+        ]
+    },
+    {
+        "index": 75,
+        "situation_id": "0.5_1_p12_n22181222",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            22,
+            18,
+            12,
+            22
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            6,
+            10,
+            10,
+            16
+        ]
+    },
+    {
+        "index": 76,
+        "situation_id": "0.5_1_p12_n22181822",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            22,
+            18,
+            18,
+            22
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            12,
+            28,
+            12,
+            28
+        ]
+    },
+    {
+        "index": 77,
+        "situation_id": "0.5_1_p12_n22221212",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            22,
+            22,
+            12,
+            12
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            10,
+            4,
+            16,
+            6
+        ]
+    },
+    {
+        "index": 78,
+        "situation_id": "0.5_1_p12_n22221818",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            22,
+            22,
+            18,
+            18
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            10,
+            10,
+            6,
+            6
+        ]
+    },
+    {
+        "index": 79,
+        "situation_id": "0.5_1_p12_n226226",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            22,
+            6,
+            22,
+            6
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            22,
+            6,
+            22,
+            6
+        ]
+    },
+    {
+        "index": 80,
+        "situation_id": "0.5_1_p12_n24181610",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 1,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            24,
+            18,
+            16,
+            10
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            24,
+            24,
+            18,
+            12
+        ]
+    },
+    {
+        "index": 81,
+        "situation_id": "0.5_1_p12_n24181616",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 1,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            24,
+            18,
+            16,
+            16
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            18,
+            12,
+            16,
+            6
+        ]
+    },
+    {
+        "index": 82,
+        "situation_id": "0.5_1_p12_n24182216",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 1,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            24,
+            18,
+            22,
+            16
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            18,
+            12,
+            10,
+            4
+        ]
+    },
+    {
+        "index": 83,
+        "situation_id": "0.5_1_p12_n2812226",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            28,
+            12,
+            22,
+            6
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            6,
+            16,
+            4,
+            4
+        ]
+    },
+    {
+        "index": 84,
+        "situation_id": "0.5_1_p12_n28122812",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            28,
+            12,
+            28,
+            12
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            22,
+            22,
+            18,
+            18
+        ]
+    },
+    {
+        "index": 85,
+        "situation_id": "0.5_1_p12_n28181222",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            28,
+            18,
+            12,
+            22
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            24,
+            24,
+            12,
+            22
+        ]
+    },
+    {
+        "index": 86,
+        "situation_id": "0.5_1_p12_n28181828",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            28,
+            18,
+            18,
+            28
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            4,
+            4,
+            10,
+            0
+        ]
+    },
+    {
+        "index": 87,
+        "situation_id": "0.5_1_p12_n616166",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            6,
+            16,
+            16,
+            6
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            18,
+            22,
+            16,
+            6
+        ]
+    },
+    {
+        "index": 88,
+        "situation_id": "0.5_1_p12_n6162212",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            6,
+            16,
+            22,
+            12
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            10,
+            16,
+            18,
+            24
+        ]
+    },
+    {
+        "index": 89,
+        "situation_id": "0.5_1_p12_n6162218",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            6,
+            16,
+            22,
+            18
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            6,
+            22,
+            6,
+            6
+        ]
+    },
+    {
+        "index": 90,
+        "situation_id": "0.5_1_p12_n6221222",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            6,
+            22,
+            12,
+            22
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            6,
+            22,
+            6,
+            16
+        ]
+    },
+    {
+        "index": 91,
+        "situation_id": "0.5_1_p12_n6221228",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            6,
+            22,
+            12,
+            28
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            6,
+            22,
+            18,
+            24
+        ]
+    },
+    {
+        "index": 92,
+        "situation_id": "0.5_1_p12_n622616",
+        "neighbor_coop_ratio": 0.5,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 12,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            6,
+            22,
+            6,
+            16
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            16,
+            6,
+            16,
+            16
+        ]
+    },
+    {
+        "index": 93,
+        "situation_id": "0.75_1_p18_n12122212",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            12,
+            22,
+            12
+        ],
+        "next_action": null,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            null,
+            null,
+            null,
+            null
+        ]
+    },
+    {
+        "index": 94,
+        "situation_id": "0.75_1_p18_n12122812",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            12,
+            28,
+            12
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            16,
+            22,
+            6,
+            16
+        ]
+    },
+    {
+        "index": 95,
+        "situation_id": "0.75_1_p18_n12181222",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            18,
+            12,
+            22
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            16,
+            6,
+            16,
+            10
+        ]
+    },
+    {
+        "index": 96,
+        "situation_id": "0.75_1_p18_n12181822",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            18,
+            18,
+            22
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            12,
+            18,
+            12,
+            12
+        ]
+    },
+    {
+        "index": 97,
+        "situation_id": "0.75_1_p18_n12221212",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            22,
+            12,
+            12
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            22,
+            6,
+            10,
+            10
+        ]
+    },
+    {
+        "index": 98,
+        "situation_id": "0.75_1_p18_n12221218",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            22,
+            12,
+            18
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            12,
+            12,
+            12,
+            12
+        ]
+    },
+    {
+        "index": 99,
+        "situation_id": "0.75_1_p18_n12281212",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            28,
+            12,
+            12
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            18,
+            24,
+            18,
+            12
+        ]
+    },
+    {
+        "index": 100,
+        "situation_id": "0.75_1_p18_n12281218",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            28,
+            12,
+            18
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            10,
+            4,
+            10,
+            10
+        ]
+    },
+    {
+        "index": 101,
+        "situation_id": "0.75_1_p18_n12281818",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            12,
+            28,
+            18,
+            18
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            18,
+            18,
+            22,
+            12
+        ]
+    },
+    {
+        "index": 102,
+        "situation_id": "0.75_1_p18_n16121812",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 1,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            16,
+            12,
+            18,
+            12
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            22,
+            12,
+            12,
+            16
+        ]
+    },
+    {
+        "index": 103,
+        "situation_id": "0.75_1_p18_n16122418",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 1,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            16,
+            12,
+            24,
+            18
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            16,
+            12,
+            24,
+            24
+        ]
+    },
+    {
+        "index": 104,
+        "situation_id": "0.75_1_p18_n16122424",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 1,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            16,
+            12,
+            24,
+            24
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            22,
+            18,
+            24,
+            24
+        ]
+    },
+    {
+        "index": 105,
+        "situation_id": "0.75_1_p18_n18122212",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            18,
+            12,
+            22,
+            12
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            28,
+            12,
+            28,
+            12
+        ]
+    },
+    {
+        "index": 106,
+        "situation_id": "0.75_1_p18_n18122812",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            18,
+            12,
+            28,
+            12
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            4,
+            10,
+            0,
+            10
+        ]
+    },
+    {
+        "index": 107,
+        "situation_id": "0.75_1_p18_n18181822",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            18,
+            18,
+            18,
+            22
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            18,
+            22,
+            22,
+            18
+        ]
+    },
+    {
+        "index": 108,
+        "situation_id": "0.75_1_p18_n18182212",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            18,
+            18,
+            22,
+            12
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            22,
+            12,
+            18,
+            12
+        ]
+    },
+    {
+        "index": 109,
+        "situation_id": "0.75_1_p18_n18241216",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 1,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            18,
+            24,
+            12,
+            16
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            18,
+            24,
+            24,
+            18
+        ]
+    },
+    {
+        "index": 110,
+        "situation_id": "0.75_1_p18_n18241828",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            18,
+            24,
+            18,
+            28
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            22,
+            18,
+            18,
+            22
+        ]
+    },
+    {
+        "index": 111,
+        "situation_id": "0.75_1_p18_n18281824",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            18,
+            28,
+            18,
+            24
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "defect",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            18,
+            22,
+            22,
+            18
+        ]
+    },
+    {
+        "index": 112,
+        "situation_id": "0.75_1_p18_n22121812",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            22,
+            12,
+            18,
+            12
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            10,
+            16,
+            6,
+            16
+        ]
+    },
+    {
+        "index": 113,
+        "situation_id": "0.75_1_p18_n22121818",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            22,
+            12,
+            18,
+            18
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            12,
+            12,
+            28,
+            12
+        ]
+    },
+    {
+        "index": 114,
+        "situation_id": "0.75_1_p18_n22182418",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 1,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            22,
+            18,
+            24,
+            18
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            16,
+            12,
+            12,
+            6
+        ]
+    },
+    {
+        "index": 115,
+        "situation_id": "0.75_1_p18_n22182424",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 1,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            22,
+            18,
+            24,
+            24
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            16,
+            12,
+            24,
+            18
+        ]
+    },
+    {
+        "index": 116,
+        "situation_id": "0.75_1_p18_n24182818",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            24,
+            18,
+            28,
+            18
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            18,
+            12,
+            22,
+            12
+        ]
+    },
+    {
+        "index": 117,
+        "situation_id": "0.75_1_p18_n24241216",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 1,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            24,
+            24,
+            12,
+            16
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            24,
+            18,
+            22,
+            16
+        ]
+    },
+    {
+        "index": 118,
+        "situation_id": "0.75_1_p18_n24241222",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 1,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "cooperate",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_payoff_list": [
+            24,
+            24,
+            12,
+            22
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "defect",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            24,
+            18,
+            16,
+            10
+        ]
+    },
+    {
+        "index": 119,
+        "situation_id": "0.75_1_p18_n28181818",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            28,
+            18,
+            18,
+            18
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "cooperate",
+            "cooperate",
+            "cooperate",
+            "defect"
+        ],
+        "neighbor_next_payoffs": [
+            18,
+            18,
+            12,
+            22
+        ]
+    },
+    {
+        "index": 120,
+        "situation_id": "0.75_1_p18_n28182418",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 0,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            28,
+            18,
+            24,
+            18
+        ],
+        "next_action": 0,
+        "neighbor_next_actions": [
+            "defect",
+            "cooperate",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            22,
+            12,
+            18,
+            12
+        ]
+    },
+    {
+        "index": 121,
+        "situation_id": "0.75_1_p18_n6221824",
+        "neighbor_coop_ratio": 0.75,
+        "highest_action": 1,
+        "p_action_str": "cooperate",
+        "p_payoff": 18,
+        "neighbor_action_list": [
+            "cooperate",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_payoff_list": [
+            6,
+            22,
+            18,
+            24
+        ],
+        "next_action": 1,
+        "neighbor_next_actions": [
+            "defect",
+            "defect",
+            "cooperate",
+            "cooperate"
+        ],
+        "neighbor_next_payoffs": [
+            10,
+            16,
+            18,
+            24
+        ]
+    }
+]
